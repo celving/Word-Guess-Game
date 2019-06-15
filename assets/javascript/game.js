@@ -1,9 +1,9 @@
 // Create getElementByID variables for each element to link to the html //
-var directionsText = document.getElementByID("directions-text")
-var wordArea = document.getElementByID("word-area")
-var guessesLeft = document.getElementByID("guesses-left")
-var winsText = document.getElementByID("wins-text")
-var lossesText = document.getElementByID("losses-text")
+var directionsText = document.getElementById("directions-text")
+var wordArea = document.getElementById("word-area")
+var guessesLeft = document.getElementById("guesses-left")
+var winsText = document.getElementById("wins-text")
+var lossesText = document.getElementById("losses-text")
 
 //Create the directions text//
 
